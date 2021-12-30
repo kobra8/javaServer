@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Oto kalkulator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/calc.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Kalkulator rewelacyjny</h1>
+        <iframe src="/hello" class="time"></iframe>
+        <div>
+            <form action="/calc" method="GET">
+            <label>a</label>
+            <input type="text" name="a" value="">
+            <label><b> +</b> b =</label>
+            <input type="text" name="b" value="">
+            
+            <input type="submit" value="Licz">
+            </form>
+        </div>
+    </body>
+</html>
